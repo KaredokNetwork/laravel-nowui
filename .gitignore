@@ -1,12 +1,57 @@
-/node_modules
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-.env
-.env.backup
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
+### OSX BOOGERS ###
+.DS_Store
+*._DS_Store
+._.DS_Store
+*._
+._*
+._.*
+
+### WINDOWS BOOGERS ###
+Thumbs.db
+
+### Sass ###
+#bower_components/*
+/.sass-cache/*
+.sass-cache
+/.vscode
+/.vagrant
 npm-debug.log
 yarn-error.log
+
+### SUBLIMETEXT BOOGERS ###
+*.sublime-workspace
+
+### PHPSTORM BOOGERS ###
+.idea
+.idea/*
+/.idea/*
+.phpintel/*
+/.phpintel/*
+
+### DIFFERENT TYPE OF MASTER CONFIGS ###
+.env
+composer.lock
+.phpunit.result.cache
+.dump.html
+Envoy*.php
+
+### ASSET EXCLUSIONS ###
+/node_modules
+/public/storage
+/public/files
+/public/hot
+/public/images
+Homestead.yaml
+Homestead.json
+/storage/debugbar
+/storage/dump
+/storage/framework
+/storage/installed
+/storage/logs
+/storage/users
+/storage/*.key
+/vendor
+*.zip
+*.bak
+*.sql
+*-old
